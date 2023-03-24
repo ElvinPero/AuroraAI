@@ -9,7 +9,7 @@ const headStyle = {
     "2px 2px 10px #fff",
 
   fontWeight: "900",
-  fontSize: "25px",
+  fontSize: "30px",
   color: "white",
 
 
@@ -21,13 +21,16 @@ const App = () => {
       <header className="fixed z-40  w-full flex justify-between items-center bg-teal sm:px-8 px-4 py-4 border-b border-rounded-md  bg-[#c977ff] backdrop-filter backdrop-blur-md bg-opacity-50 " >
         <Link to="/"> <button type="button" style={headStyle}  >
           Aurora AI
+          <span className='w-20'>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" alt="logo"
+              className='w-20 object-contain'
+            />
+          </span>
         </button>
         </Link>
         <div >
-          Powered by
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" alt="logo"
-            className='w-28 object-contain'
-          />
+
         </div>
         <Link to="/create-post"
           className='font-inter font-extrabold border-black border-4 bg-[#41fbb7] text-[#000000]  px-4 py-2 rounded-md hover:bg-[#010707] marker:bg-600 hover:text-white '>
