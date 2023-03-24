@@ -9,7 +9,7 @@ const headStyle = {
     "2px 2px 10px #fff",
 
   fontWeight: "900",
-  fontSize: "25px",
+  fontSize: "30px",
   color: "white",
 
 
@@ -23,10 +23,10 @@ const App = () => {
           Aurora AI
         </button>
         </Link>
-        <div >
+        <div className='font-bold'>
           Powered by
           <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" alt="logo"
-            className='w-28 object-contain'
+            className='w-24 object-contain'
           />
         </div>
         <Link to="/create-post"
