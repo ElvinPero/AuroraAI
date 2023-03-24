@@ -9,7 +9,7 @@ const headStyle = {
     "2px 2px 10px #fff",
 
   fontWeight: "900",
-  fontSize: "30px",
+  fontSize: "25px",
   color: "white",
 
 
