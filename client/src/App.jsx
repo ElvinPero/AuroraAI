@@ -9,7 +9,7 @@ const headStyle = {
     "2px 2px 10px #fff",
 
   fontWeight: "900",
-  fontSize: "30px",
+  fontSize: "25px",
   color: "white",
 
 
@@ -18,7 +18,7 @@ const headStyle = {
 const App = () => {
   return (
     <BrowserRouter>
-      <header className="fixed z-40  w-full flex justify-between items-center bg-teal sm:px-8 px-4 py-4 border-b border-rounded-md  bg-[#c977ff] backdrop-filter backdrop-blur-md bg-opacity-50 " >
+      <header className="fixed z-40  w-full flex justify-between items-center bg-teal sm:px-8 px-4 py-4 border-b border-rounded-md  bg-[#c977ff] backdrop-filter backdrop-blur-md bg-opacity-30 " >
         <Link to="/"> <button type="button" style={headStyle}  >
           Aurora AI
         </button>
