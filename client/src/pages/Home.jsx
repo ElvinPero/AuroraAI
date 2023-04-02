@@ -1,12 +1,14 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { Loader, Card, FormField } from '../components'
+import '../App.css'
+
 const RenderCards = ({ data, title }) => {
     if (data?.length > 0) {
         return data.map((post) => <Card key={post._id}{...post} />)
     }
     return (
-        <h2 className='mt-5 font-bold text-[#6449ff] text-xl uppercase'>{title}</h2>
+        <h2 className='mt-5 font-bold text-[#9e95d4] text-xl uppercase'>{title}</h2>
     )
 }
 const Home = () => {
@@ -54,10 +56,14 @@ const Home = () => {
         );
     }
     return (
-        <section className="max-w-7xl mx-auto">
+        <section className=" max-w-7xl mx-auto">
             <div>
-                <h1 className=' mt-20 font-extrabold text-[#ff85e9] text-[32px]'>AI Image Wizard</h1>
-                <p className="mt-2 text-[#ff85e9] text-[16px] max-w-[500px]">
+                <h1 className=' headerText mt-20 font-extrabold text-[#ff85e9] text-[32px]'>
+
+                    Aurora AI
+                </h1>
+
+                <p className="mt-2 text-[#97f4de] text-[16px] max-w-[500px]">
                     "Unleash your imagination with our AI-powered image generator - where pixels meet creativity!"
                 </p>
             </div>
@@ -84,8 +90,8 @@ const Home = () => {
                         <>
                             {
                                 searchText && (
-                                    <h2 className='font-medium text-center text-[#222328] text-xl mb-3'>
-                                        Showing results for <span className="text-[#222328]">
+                                    <h2 className='font-medium text-center text-[#5cf3c8] text-xl mb-3'>
+                                        Showing results for <span className="text-[#5cf3c8]">
                                             {searchText}
                                         </span>
                                     </h2>

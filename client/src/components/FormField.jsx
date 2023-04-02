@@ -15,9 +15,9 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
           <button
             type="button"
             onClick={handleSurpriseMe}
-            className="font-semibold text-xs bg-[#068270] py-1 px-2
-              rounded-[5px] text-white">
-            Surprise me
+            className="font-bold text-xs bg-[#29e4c8] py-1 px-2
+              rounded-[5px] text-black">
+            RANDOM
           </button>
         )
       }
