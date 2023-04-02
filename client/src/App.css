@@ -11,7 +11,7 @@
   background-image:
     radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
     radial-gradient(at 50% 0%, rgb(32, 101, 96) 0, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%);
+    radial-gradient(at 100% 0%, rgb(0, 0, 0) 0, transparent 50%);
 
 }
 
@@ -83,7 +83,7 @@
 
 .headerText {
   font-size: 72px;
-  background: linear-gradient(to right, #47c2ff, #6f6d0d);
+  background: linear-gradient(to right, hsl(157, 100%, 65%), #430eb6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
