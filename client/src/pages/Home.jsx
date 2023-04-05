@@ -58,9 +58,8 @@ const Home = () => {
     return (
         <section className=" max-w-7xl mx-auto">
             <div>
-                <h1 className=' headerText mt-20 font-extrabold text-[#ff85e9] text-[32px]'>
-
-                    Aurora AI
+                <h1 className=' headerText mt-16 font-extrabold text-[#ff85e9] text-[40px]'>
+                    Featured Arts
                 </h1>
 
                 <p className="mt-2 text-[#97f4de] text-[16px] max-w-[500px]">
@@ -79,8 +78,45 @@ const Home = () => {
 
                 />
             </div>
+
+            <div className='grid lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-3 z-0'>
+                {searchText ? (
+                    <RenderCards
+                        data={null}
+                        title="" />
+                ) : (
+                    <>
+                        <Card _id="642321d9c56b7f9e6951867d" name="Elvin" prompt="Dark Neon girl bloom shadows rainy city fog neon green eyes."
+                            photo="http://res.cloudinary.com/dxdotuxzy/image/upload/v1680024025/zqihkt8acoiuwjtpquqv.png" />
+                        <Card _id="642321d9c56b7f9e6951867d" name="Elvin" prompt="Cyborg one eyed rain red velvet in hands standng next to city."
+                            photo="https://res.cloudinary.com/dxdotuxzy/image/upload/v1679657551/kpjhoueacwn9ne9rxups.png" />
+                        <Card _id="642321d9c56b7f9e6951867d" name="Elvin" prompt="Spongebob Squarepants in the Blair Witch Project"
+                            photo="http://res.cloudinary.com/dxdotuxzy/image/upload/v1679968909/tijo5yboje9l2oculjdd.png" />
+                        <Card _id="642321d9c56b7f9e6951867d" name="Elvin" prompt="Sad yellow coat boy in london rainy streets, background blur"
+                            photo="https://res.cloudinary.com/dxdotuxzy/image/upload/v1679654530/y3tolaflvvzfxm4nm2sr.png" />
+
+                        <Card _id="642321d9c56b7f9e6951867d" name="Elvin" prompt="a macro 35mm photograph of two mice in Hawaii, they are each wearing tiny swimsuits and are carrying tiny surf boards, digital art"
+                            photo="https://res.cloudinary.com/dxdotuxzy/image/upload/v1679572908/nutapwrlbrrhbw8taosx.png" />
+
+                    </>
+                )
+                }
+
+            </div>
+
+            <div className='mb-4'>
+                <h1 className=' headerText2 mt-10  font-extrabold text-[40px]'>
+                    Latest Releases
+                </h1>
+                <p className="text2 mt-2  text-[16px] max-w-[500px]">
+                    "Latest releases from our community showcase of images, where creativity and inspiration come to life! "
+                </p>
+
+            </div>
+
             <div className='mt-18 z-0'>
                 {
+
                     loading ? (
                         <div className='flex justify-center items-center z-0'>
                             <Loader />
