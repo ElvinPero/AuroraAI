@@ -83,7 +83,22 @@
 
 .headerText {
   font-size: 72px;
-  background: linear-gradient(to right, hsl(157, 100%, 65%), #430eb6);
+  background: linear-gradient(to right, hsl(157, 100%, 65%), #07adf5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.headerText2 {
+  background-image: linear-gradient(60deg, #e57df6, #1cd2c9);
+  background-clip: text;
+  color: transparent;
+}
+
+.text2 {
+  background-image: linear-gradient(60deg, #ef99fc, #22d7d7);
+  background-clip: text;
+  color: transparent;
+  font-family: inter, sans-serif;
+  font-weight: 600;
+
 }

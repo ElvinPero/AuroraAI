@@ -2,10 +2,14 @@ import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { logo } from './assets';
 import { Home, CreatePost } from './pages'
+import Footer from './components/footer.jsx'
 import './App.css'
 // bg-[#0f0921]
 
 // className='font-inter font-extrabold border-black border-4 bg-[#41fbb7] text-[#000000]  px-4 py-2 rounded-md hover:bg-[#010707] marker:bg-600 hover:text-white '>
+
+
+//powered by div
 const headStyle = {
 
 
@@ -27,12 +31,7 @@ const App = () => {
           Aurora AI
         </button>
         </Link>
-        <div className='font-bold'>
-          Powered by
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" alt="logo"
-            className='w-24 object-contain'
-          />
-        </div>
+
         <Link to="/create-post"
           className='custom-btn btn-16 font-inter font-extrabold'>
           Create
@@ -44,7 +43,15 @@ const App = () => {
           <Route path="/create-post" element={<CreatePost />} />
         </Routes>
       </main>
+      <div className='relative z-0'>
+        <Footer />
+
+      </div>
     </BrowserRouter >
+
+
+
+
   )
 }
 

@@ -78,7 +78,7 @@ const CreatePost = () => {
 
     return (
         <section className='max-w-7xl mx-auto'>
-            <div className="mt-20">
+            <div className="mt-12">
                 <h1 className=' font-extrabold text-[#34ffb8] text-[32px]'>Create</h1>
                 <p className="mt-2 text-[#89ffd6] text-[16px] max-w-[500px]">
                     Creating AI rendered images through AURORA
@@ -150,7 +150,7 @@ const CreatePost = () => {
 
 
                     </span>
-                    <p className='mt-2 text-[#89ffd6]  text-[14px]'>Share your creation on Generation.hub. Behold the magic of language modeling as we transform your words into intelligent and informative responses through AI generated images</p>
+                    <p className='mt-2 text-[#89ffd6]  text-[14px]'>Share your creation on Latest Releases. Behold the magic of language modeling as we transform your words into intelligent and informative responses through AI rendered images</p>
                 </div>
             </form>
         </section>
