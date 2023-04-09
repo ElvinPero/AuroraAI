@@ -52,6 +52,6 @@ We welcome any contributions that improve the functionality, performance, or use
 </a> -->
 
 
-## Credits
+<!--## Credits>
 <!-- Aurora AI was developed by <a href="https://github.com/ElvinPero/">ElvinPero</a> using React JS and OpenAI API. We thank the OpenAI team for their incredible work on the GPT models that power this tool. -->
 Aurora AI was developed using React JS and OpenAI API. We thank the OpenAI team for their incredible work on the GPT models that power this tool.
