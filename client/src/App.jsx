@@ -4,12 +4,7 @@ import { logo } from './assets';
 import { Home, CreatePost } from './pages'
 import Footer from './components/footer.jsx'
 import './App.css'
-// bg-[#0f0921]
 
-// className='font-inter font-extrabold border-black border-4 bg-[#41fbb7] text-[#000000]  px-4 py-2 rounded-md hover:bg-[#010707] marker:bg-600 hover:text-white '>
-
-
-//powered by div
 const headStyle = {
 
 
