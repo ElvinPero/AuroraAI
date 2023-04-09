@@ -91,7 +91,7 @@ const footer = () => {
 
                             <li>
                                 <a
-                                    href="https://react.dev/reference/react/components"
+                                    href="https://react.dev/learn"
                                     className="text-gray-100 transition hover:opacity-75 dark:text-gray-100"
                                 >
                                     Docs

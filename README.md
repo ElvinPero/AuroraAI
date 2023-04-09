@@ -47,10 +47,11 @@ Once the image is generated, you can save it to your local storage or share it d
 If you want to contribute to Aurora AI, feel free to fork the repository and submit a pull request.
 We welcome any contributions that improve the functionality, performance, or user experience of Aurora AI.
 
-<a href="https://github.com/ElvinPero/PriceTemplate/graphs/contributors">
+<!-- <a href="https://github.com/ElvinPero/PriceTemplate/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ElvinPero/AuroraAi" />
-</a>
+</a> -->
 
 
 ## Credits
-Aurora AI was developed by <a href="https://github.com/ElvinPero/">ElvinPero</a> using React JS and OpenAI API. We thank the OpenAI team for their incredible work on the GPT models that power this tool.
+<!-- Aurora AI was developed by <a href="https://github.com/ElvinPero/">ElvinPero</a> using React JS and OpenAI API. We thank the OpenAI team for their incredible work on the GPT models that power this tool. -->
+Aurora AI was developed using React JS and OpenAI API. We thank the OpenAI team for their incredible work on the GPT models that power this tool.
